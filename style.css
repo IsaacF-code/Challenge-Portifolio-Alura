@@ -75,13 +75,24 @@ section.title{
 }
 
 .title__container {
-    width: 50%;
+    width: 100%;
     padding: 2.5rem;
+}
+
+.title__bio {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.title__subsection {
+    font-size: 22px;
+    font-weight: 400;
 }
 
 .title__network {
     display: flex;
-    justify-content: space-between;
+    gap: 48px;
+    padding: 0px;
 }
 
 /*Sessão About*/
