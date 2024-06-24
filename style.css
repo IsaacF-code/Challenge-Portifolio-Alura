@@ -65,7 +65,8 @@ header {
 /*Sessão Title*/
 
 section.title{
-    padding: 1.5rem;
+    padding: 2rem;
+    background-color: #EAF2FD;
 }
 
 .title__div {
@@ -94,6 +95,10 @@ section.title{
     gap: 48px;
     padding: 0px;
 }
+
+/* .title__network__item:hover { // Estilizar os itens de rede social
+    scale: 1.5;
+} */    
 
 /*Sessão About*/
 
