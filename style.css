@@ -66,7 +66,7 @@ header {
 
 section.title{
     padding: 2rem;
-    background-color: #EAF2FD;
+    background-color: #C8C8C8;
 }
 
 .title__div {
@@ -103,7 +103,21 @@ section.title{
 /*Sessão About*/
 
 section.about{
+    padding: 4rem;
+    background-color: #EAF2FD;
+}
 
+.about__container {
+    width: 65%;
+}
+
+.about__title {
+    font-size: 32px;
+}
+
+.about__paragraph {
+    font-size: 16px;
+    text-align: justify;
 }
 
 /*Sessão Hobbies*/
