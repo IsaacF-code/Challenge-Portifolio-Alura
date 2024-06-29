@@ -120,6 +120,39 @@ section.about{
     text-align: justify;
 }
 
+/*Sessão Skills*/
+
+section.skills {
+    width: 100%;
+    background-color: #C8C8C8;
+}
+
+.skills__title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.skills__line {
+    display: flex;
+    justify-content: center;
+}
+
+.skills__box {
+    background-color: #FFFFFF;
+    width: 176px;
+    height: 174px;
+    gap: 16px;
+}
+
+.skills__box ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 0px;
+}
+
 /*Sessão Hobbies*/
 
 section.hobbies{
