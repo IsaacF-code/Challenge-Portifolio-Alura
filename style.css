@@ -66,7 +66,7 @@ header {
 
 section.title{
     padding: 2rem;
-    background-color: #C8C8C8;
+    background-color: rgba(245, 245, 245, 1); /*Antes #C8C8C8*/
 }
 
 .title__div {
@@ -104,7 +104,7 @@ section.title{
 
 section.about{
     padding: 4rem;
-    background-color: #EAF2FD;
+    background-color: rgba(234, 242, 253, 1); /*Antes #EAF2FD*/
 }
 
 .about__container {
@@ -125,23 +125,25 @@ section.about{
 section.skills {
     width: 100%;
     background-color: #C8C8C8;
+    padding: 3rem 0;
 }
 
 .skills__title {
     text-align: center;
     font-size: 32px;
+    /* padding: 50px 0px 0px 30px; */
 }
 
 .skills__line {
     display: flex;
     justify-content: center;
+    gap: 16px;
 }
 
 .skills__box {
     background-color: #FFFFFF;
     width: 176px;
     height: 174px;
-    gap: 16px;
 }
 
 .skills__box ul {
@@ -149,14 +151,51 @@ section.skills {
     flex-direction: column;
     gap: 8px;
     justify-content: flex-end;
-    height: 100%;
-    padding: 0px;
+    height: 80%;
+    padding-left: 10px;
+}
+
+.skills__name {
+    font-weight: 700;
 }
 
 /*Sessão Hobbies*/
 
 section.hobbies{
-    
+    width: 100%;
+    background-color: #C8C8C8;
+    padding: 3rem 0;
+}
+
+.hobbies__title {
+    text-align: center;
+    font-size: 32px;
+    /* padding: 50px 0px 0px 30px; */
+}
+
+.hobbies__line {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hobbies__box {
+    background-color: #FFFFFF;
+    width: 176px;
+    height: 174px;
+}
+
+.hobbies__box ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-end;
+    height: 80%;
+    padding-left: 10px;
+}
+
+.hobbies__name {
+    font-weight: 700;
 }
 
 /* Experiência Acadêmica*/
