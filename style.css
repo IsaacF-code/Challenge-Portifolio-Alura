@@ -125,7 +125,7 @@ section.about{
 section.skills {
     width: 100%;
     background-color: #C8C8C8;
-    padding: 3rem 0;
+    padding: 1rem 0;
 }
 
 .skills__title {
@@ -164,7 +164,7 @@ section.skills {
 section.hobbies{
     width: 100%;
     background-color: #C8C8C8;
-    padding: 3rem 0;
+    padding: 3rem 0 6rem 0;
 }
 
 .hobbies__title {
@@ -201,7 +201,26 @@ section.hobbies{
 /* Experiência Acadêmica*/
 
 section.academic{
+    width: 100%;
+    padding: 3rem 0;
+    background-color: rgba(234, 242, 253, 1);
+}
 
+.academic__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.academic__courses__box {
+    background-color: #FFFFFF;
+    
 }
 
 /* experiência*/
