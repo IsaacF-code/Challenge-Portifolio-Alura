@@ -244,7 +244,7 @@ section.experience{
 section.formcontato{
     width: 100%;
     padding: 3rem;
-    background-color: rgb(157, 174, 228);
+    background-color: #EAF2FD;
 }
 
 .formcontato__contacto {
@@ -286,7 +286,13 @@ section.formcontato{
 }
 
 .formcontato__botao {
-    width: 50%;
+    width: 30%;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    padding: 16px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 
