@@ -300,7 +300,19 @@ section.formcontato{
 /*footeer*/
 
 section.footer{
-   
+    padding: 1rem;
+}
+
+.footer__rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__rodape p {
+    margin: 4px 0px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* Chegou a hora de se desafiar com a responsividade, 
