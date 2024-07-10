@@ -279,16 +279,46 @@ section.formcontato{
 
 .formcontato__form__group {
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .formcontato__input {
     height: 45px;
     font-size: 18px;
+    /* width: 100%; */
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding-left: 8px;
+}
+
+.formcontato__form__group span {
+    position: absolute;
+    left: 8px;
+    top: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+    opacity: .5;
 }
 
 .formcontato__textarea {
-    height: 120px;
+    /* width: 100%; */
+    outline: none;
+    resize: none;
+    border-radius: 6px;
+    border: 1px solid #ccc;
 }
+
+.formcontato__input:focus ~ span,
+.formcontato__input:valid ~ span,
+.formcontato__textarea:focus ~ span,
+.formcontato__textarea:valid ~ span {
+    transform: translateY(-40px);
+    opacity: 1;
+    font-size: 14px;
+}
+
 
 .formcontato__botao {
     width: 30%;
